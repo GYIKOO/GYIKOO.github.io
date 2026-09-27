@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xinyi Gao | Academic Homepage</title>
     <meta name="description" content="Xinyi Gao, third-year Ph.D. student in Computer Science at UC Santa Barbara. Research on Natural Language Processing and Large Language Models.">
+    <meta property="og:title" content="Xinyi Gao | Academic Homepage">
+    <meta property="og:description" content="Xinyi Gao, third-year Ph.D. student in Computer Science at UC Santa Barbara. Research on Natural Language Processing and Large Language Models.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gyikoo.me/">
+    <meta property="og:image" content="https://gyikoo.me/profile.jpg">
+    <meta name="twitter:card" content="summary">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="#about" class="skip-link">Skip to main content</a>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="#" class="nav-logo">
                 <span class="logo-bracket">[</span>
@@ -27,12 +34,12 @@
                 <a href="#contact">Contact</a>
             </div>
             <div class="nav-controls">
-                <button class="nav-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                    <svg class="nav-btn-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <button type="button" class="nav-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg aria-hidden="true" class="nav-btn-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="5"/>
                         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
                     </svg>
-                    <svg class="nav-btn-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg aria-hidden="true" class="nav-btn-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
                     </svg>
                     <span class="nav-btn-label theme-label">Dark</span>
