@@ -785,6 +785,16 @@ a:hover {
     color: var(--text-muted);
 }
 
+.footer-content a {
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer-content a:hover {
+    color: var(--accent-primary);
+}
+
 .visitor-stats {
     margin-top: var(--space-sm);
     font-size: 0.75rem;
